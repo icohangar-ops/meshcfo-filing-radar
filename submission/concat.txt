@@ -1,0 +1,17 @@
+file '/workspace/contests/nebius-nvidia/submission/frames/00-title.png'
+duration 19.654
+file '/workspace/contests/nebius-nvidia/submission/frames/01-problem.png'
+duration 23.585
+file '/workspace/contests/nebius-nvidia/submission/frames/02-architecture.png'
+duration 23.585
+file '/workspace/contests/nebius-nvidia/submission/frames/03-cli.png'
+duration 31.447
+file '/workspace/contests/nebius-nvidia/submission/frames/04-board.png'
+duration 35.377
+file '/workspace/contests/nebius-nvidia/submission/frames/05-deepen.png'
+duration 27.516
+file '/workspace/contests/nebius-nvidia/submission/frames/06-stack.png'
+duration 19.654
+file '/workspace/contests/nebius-nvidia/submission/frames/07-end.png'
+duration 15.723
+file '/workspace/contests/nebius-nvidia/submission/frames/07-end.png'

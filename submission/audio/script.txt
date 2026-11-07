@@ -1,0 +1,19 @@
+MeshCFO Filing Radar, by Cubiczan, for the Nebius cross NVIDIA Global AI Hackathon, Best Apps and Agents track — also aimed at Best Use of Tavily.
+
+Here is the problem. Controllers do not get one filing at a time. Overnight, DEMO eight-K Item 4.02 non-reliance notices and Item 9A material weakness signals can stack. The Audit Committee will not accept a chatbot paragraph. They ask: why now, who owns it, which ICFR gaps, and what evidence closes it.
+
+MeshCFO Control Tower already answers that for a single signal. Filing Radar is different. It is a night-watch queue: triage many DEMO signals, rank the board, and deepen only the critical cards so Token Factory credits stretch further.
+
+Architecture. Three DEMO issuers enter the pipeline. NVIDIA Nemotron Nano, served on Nebius Token Factory, performs fast severity triage — clock hours, owner seat, deepen recommendation. Optional Tavily search attaches labeled market and peer context. That context is never treated as EDGAR evidence. When severity is seven or higher, NVIDIA Nemotron Lightning deepens the card into an Audit Committee one-liner, why-now narrative, ICFR focus, and next actions that name a seat plus evidence.
+
+Watch a real CLI scan. Cedarline Health DEMO and Northstar Materials DEMO both triage at severity nine with a seventy-two hour clock under Controller responsible and CFO accountable. Lumenbridge Payments DEMO is elevated at severity six for the SOX P M O. Tavily is live: each card carries market hits marked market context only.
+
+The radar board ranks by severity then clock. Operators see the queue the way a fractional CFO would at six A M — not a chat transcript.
+
+Deepening Northstar produces a Controller-owned remediation plan for ASC 606 bill-and-hold and revenue cutoff. Next actions demand journals, hold-criteria documents, and interim I A testing before the next periodic report. That is ownership mesh, not free-form advice.
+
+What we used: Nebius Token Factory as the OpenAI-compatible runtime. NVIDIA Nemotron Nano for triage. Nemotron Lightning for deepen. Tavily for market enrichment on the Best Use of Tavily path. Public MIT repository, DEMO fixtures, no secrets in git.
+
+If your Token Factory key needs rotation, offline deterministic triage still produces a full night pack so judges can run the demo. Live Nemotron calls are the eligibility path once the key is fresh.
+
+MeshCFO Filing Radar — Cubiczan. Own the overnight clock.

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MeshCFO Filing Radar — Cubiczan</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">Cubiczan · MeshCFO Filing Radar</div>
+    <div class="meta">Local-first · open-weight GGUF model (llama.cpp) · external services off by default</div>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Night-watch for DEMO ICFR / restatement clocks</h1>
+      <p><strong>DEMO:</strong> every issuer and filing in this dashboard is a fictional DEMO fixture — not a real company or SEC filing.</p>
+      <p>A small local model triages the queue on this machine and deepens the critical cards. Optional cloud models and Tavily market context are disabled unless explicitly enabled in configuration.</p>
+      <div class="actions">
+        <button id="btn-scan">Run radar scan (local)</button>
+        <button id="btn-offline" class="secondary">Offline scan (rules only)</button>
+        <span id="status">Ready</span>
+      </div>
+    </section>
+    <section id="board" class="board"></section>
+    <section id="deep" class="deep"></section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

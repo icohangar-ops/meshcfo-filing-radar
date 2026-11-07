@@ -1,0 +1,190 @@
+{
+  "generated_at": "2026-10-27T11:45:35.802286+00:00",
+  "hackathon": "Nebius x NVIDIA Global AI Hackathon",
+  "product": "MeshCFO Filing Radar",
+  "brand": "Cubiczan",
+  "mode": "offline",
+  "triage_model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+  "deepen_model": "nvidia/Nemotron-3_5-Lightning",
+  "cards": [
+    {
+      "fixture_id": "cedarline",
+      "company": "Cedarline Health Partners (DEMO)",
+      "ticker": "CDLH-DEMO",
+      "signal_kind": "both",
+      "filed_on": "2026-01-22",
+      "severity": 9,
+      "clock_hours": 72,
+      "owner_seat": "Controller (R) / CFO (A)",
+      "triage_headline": "CDLH-DEMO: non-reliance clock \u2014 triage CRITICAL",
+      "why_triage": "DEMO Item 4.02 non-reliance plus MW signal. Amendment / certification clock is active; Audit Committee will ask ownership and evidence first.",
+      "deepen_recommended": true,
+      "model_used": "offline-deterministic-triage",
+      "mode": "offline",
+      "market_hits": [
+        {
+          "title": "The Ultimate Guide to Managing Obsolete Medical Supplies",
+          "url": "https://blog.bluebin.com/the-ultimate-guide-to-managing-obsolete-medical-supplies",
+          "snippet": "First, identify obsolete inventory your organization is currently storing and assess to what degree your organization risks future inventory obsolescence.\n\nNext, unload obsolete inventory properly. Aim to recoup financial losses to the most efficient extent possible.\n\nFinally, mitigate the risk of inventory obsolescence moving forward. Implement systems, protocols, and technologies that prevent ob",
+          "label": "market_context",
+          "note": "Tavily market/peer context \u2014 NOT EDGAR evidence"
+        },
+        {
+          "title": "How to Manage Inventory Medical Supplies | eTurns",
+          "url": "https://www.eturns.com/resources/blog/inventory-medical-supplies",
+          "snippet": "When it comes to medical supplies, there\u2019s no room for error. Whether you're overseeing a hospital, EMS fleet, or outpatient care facility, these 10 best practices will help you prevent stockouts, minimize waste, and improve overall efficiency.\n\n### 1. Implement Real-Time Inventory Tracking [...] Managing medical supply inventory is far more than a back-office task; it\u2019s a critical front-line func",
+          "label": "market_context",
+          "note": "Tavily market/peer context \u2014 NOT EDGAR evidence"
+        },
+        {
+          "title": "Healthcare Storage Trends Shaping 2026 Purchasing",
+          "url": "https://www.dsidirect.com/healthcare-storage-trends-2026-whats-changing-in-medical-supply-management",
+          "snippet": "Start with visibility into how supplies actually flow through your facility:\n\n Map storage movement from the central warehouse to the point of care\n Identify warning signs: recurring stockouts, high expiry rates, staff complaints about time spent searching\n Classify items by risk, value, and clinical criticality to match the storage approach to item importance\n Benchmark performance against peers ",
+          "label": "market_context",
+          "note": "Tavily market/peer context \u2014 NOT EDGAR evidence"
+        }
+      ]
+    },
+    {
+      "fixture_id": "northstar",
+      "company": "Northstar Materials, Inc. (DEMO)",
+      "ticker": "NSMT-DEMO",
+      "signal_kind": "both",
+      "filed_on": "2026-03-14",
+      "severity": 9,
+      "clock_hours": 72,
+      "owner_seat": "Controller (R) / CFO (A)",
+      "triage_headline": "NSMT-DEMO: non-reliance clock \u2014 triage CRITICAL",
+      "why_triage": "DEMO Item 4.02 non-reliance plus MW signal. Amendment / certification clock is active; Audit Committee will ask ownership and evidence first.",
+      "deepen_recommended": true,
+      "model_used": "offline-deterministic-triage",
+      "mode": "offline",
+      "market_hits": [
+        {
+          "title": "Revenue from Contracts with Customers ASC 606 Updated",
+          "url": "https://www.grantthornton.com/content/dam/grantthornton/website/assets/content-page-files/audit/pdfs/2022/revenue-from-contracts-with-customers-updated-220124.pdf",
+          "snippet": "right to all of the consideration promised under the contract if it continues to perform as promised. ASC 606-10-55-179 Therefore, the terms of the contract and the practices in the legal jurisdiction indicate that there is a right to payment for performance completed to date. Consequently, the criteria in paragraph 606-10-25-27(c) are met, and the entity has a performance obligation that it satis",
+          "label": "market_context",
+          "note": "Tavily market/peer context \u2014 NOT EDGAR evidence"
+        },
+        {
+          "title": "Common ASC 606 Issues: Industrial Products & Manufacturing Industry - RevenueHub",
+          "url": "https://www.revenuehub.org/article/common-asc-606-issues-industrial-products-manufacturing-industry",
+          "snippet": "IP&M entities need to evaluate their contracts to determine if control of the goods produced is transferred over time or at a single point in time. ASC 606-10-25-27 provides three criteria to determine if transfer of control happens over time: (a) the customer simultaneously receives and consumes the benefits provided by the entity\u2019s performance as the entity performs, (b) the entity\u2019s performance",
+          "label": "market_context",
+          "note": "Tavily market/peer context \u2014 NOT EDGAR evidence"
+        },
+        {
+          "title": "ASC 606 Revenue Recognition Guide (2026): 5 Steps & Examples",
+          "url": "https://www.rightrev.com/asc-606-revenue-recognition-guide",
+          "snippet": "Putting it all together, revenue recognized after Month 1 is $4,500 ($4,000 in services and $500 in cloud-based software), while revenue for the remaining performance obligations (cloud-based software) is recognized ratably over the subscription term.\n\n## Standards and Requirements Under ASC 606 [...] Finally, it\u2019s interesting to note that ASC 606 replaced the previous revenue recognition standard",
+          "label": "market_context",
+          "note": "Tavily market/peer context \u2014 NOT EDGAR evidence"
+        }
+      ]
+    },
+    {
+      "fixture_id": "lumenbridge",
+      "company": "Lumenbridge Payments Corp. (DEMO)",
+      "ticker": "LMPC-DEMO",
+      "signal_kind": "material_weakness",
+      "filed_on": "2026-02-28",
+      "severity": 6,
+      "clock_hours": 168,
+      "owner_seat": "SOX PMO",
+      "triage_headline": "LMPC-DEMO: MW / ICFR signal \u2014 elevated",
+      "why_triage": "DEMO material-weakness disclosure; remediation testing plan needed.",
+      "deepen_recommended": false,
+      "model_used": "offline-deterministic-triage",
+      "mode": "offline",
+      "market_hits": [
+        {
+          "title": "IT General Controls Explained: Steps to Implementation",
+          "url": "https://www.metricstream.com/learn/it-general-controls-importance-components-implementation.html",
+          "snippet": "IT General Controls (ITGCs) are organization-wide policies and procedures. They are designed to ensure that IT systems operate reliably, securely, and in compliance with applicable regulatory requirements. They cover core control domains including logical access, change management, computer operations, physical security, and segregation of duties. Because ITGCs underpin all application-level contr",
+          "label": "market_context",
+          "note": "Tavily market/peer context \u2014 NOT EDGAR evidence"
+        },
+        {
+          "title": "What are IT General Controls (ITGC)? - Article | SailPoint",
+          "url": "https://www.sailpoint.com/identity-library/it-general-controls",
+          "snippet": "Physical security (e.g., badge access, CCTV, and locked server rooms) to prevent unauthorized access to servers, network equipment, and storage.\n Privileged access management (e.g., just-in-time access and session recording) to enforce more stringent controls on admin and root accounts.\n Separation of duties (e.g., developers cannot promote code to production without ops approval) to prevent indiv",
+          "label": "market_context",
+          "note": "Tavily market/peer context \u2014 NOT EDGAR evidence"
+        },
+        {
+          "title": "Top 5 IT General Controls for Critical Business Applications",
+          "url": "https://delinea.com/blog/top-5-it-general-controls",
+          "snippet": "## Five essential IT General Controls business process owners should prioritize\n\n### 1. Segregation of Duties (SoD)\n\nSegregation of Duties prevents a single person from having multiple conflicting responsibilities that could lead to fraud, misuse of assets, or error. By dividing tasks and access privileges, organizations reduce the risk of unauthorized or unintentional changes.",
+          "label": "market_context",
+          "note": "Tavily market/peer context \u2014 NOT EDGAR evidence"
+        }
+      ]
+    }
+  ],
+  "deep_briefs": [
+    {
+      "fixture_id": "cedarline",
+      "ac_one_liner": "DEMO: Cedarline Health Partners (DEMO) needs a named Controller-owned remediation plan for Medical supply inventory obsolescence and NRV reserves before the next periodic report.",
+      "why_now": "Non-reliance on prior audited 10-K plus inventory estimate MW heading into next 10-K",
+      "icfr_focus": [
+        "Design vs operating: Medical supply inventory obsolescence and NRV reserves",
+        "Evidence: journals, hold criteria docs, recertification file",
+        "COSO: Control Activities + Monitoring"
+      ],
+      "next_actions": [
+        "Controller: inventory affected periods and bill-and-hold / process population (DEMO)",
+        "Process owner: attach evidence pack to each open control gap",
+        "IA: schedule interim remediation test before next filing",
+        "CFO: brief Audit Committee with RACI + clock"
+      ],
+      "provenance_note": "Offline deepen uses DEMO fixture structured_facts + MeshCFO playbook vocabulary. Live mode replaces narrative with NVIDIA Nemotron Lightning on Nebius Token Factory.",
+      "model_used": "offline-deterministic-deepen",
+      "mode": "offline"
+    },
+    {
+      "fixture_id": "lumenbridge",
+      "ac_one_liner": "DEMO: Lumenbridge Payments Corp. (DEMO) needs a named Controller-owned remediation plan for IT general controls \u2014 privileged access, segregation of duties, and change management over the payments ledger before the next periodic report.",
+      "why_now": "First annual ICFR opinion year after platform cutover; Item 9A MW disclosed",
+      "icfr_focus": [
+        "Design vs operating: IT general controls \u2014 privileged access, segregation of duties, and change management over the payments ledger",
+        "Evidence: journals, hold criteria docs, recertification file",
+        "COSO: Control Activities + Monitoring"
+      ],
+      "next_actions": [
+        "Controller: inventory affected periods and bill-and-hold / process population (DEMO)",
+        "Process owner: attach evidence pack to each open control gap",
+        "IA: schedule interim remediation test before next filing",
+        "CFO: brief Audit Committee with RACI + clock"
+      ],
+      "provenance_note": "Offline deepen uses DEMO fixture structured_facts + MeshCFO playbook vocabulary. Live mode replaces narrative with NVIDIA Nemotron Lightning on Nebius Token Factory.",
+      "model_used": "offline-deterministic-deepen",
+      "mode": "offline"
+    },
+    {
+      "fixture_id": "northstar",
+      "ac_one_liner": "DEMO: Northstar Materials, Inc. (DEMO) needs a named Controller-owned remediation plan for ASC 606 bill-and-hold and revenue cutoff before the next periodic report.",
+      "why_now": "Non-reliance + expected 10-Q/10-K amendment cycle before next periodic report",
+      "icfr_focus": [
+        "Design vs operating: ASC 606 bill-and-hold and revenue cutoff",
+        "Evidence: journals, hold criteria docs, recertification file",
+        "COSO: Control Activities + Monitoring"
+      ],
+      "next_actions": [
+        "Controller: inventory affected periods and bill-and-hold / process population (DEMO)",
+        "Process owner: attach evidence pack to each open control gap",
+        "IA: schedule interim remediation test before next filing",
+        "CFO: brief Audit Committee with RACI + clock"
+      ],
+      "provenance_note": "Offline deepen uses DEMO fixture structured_facts + MeshCFO playbook vocabulary. Live mode replaces narrative with NVIDIA Nemotron Lightning on Nebius Token Factory.",
+      "model_used": "offline-deterministic-deepen",
+      "mode": "offline"
+    }
+  ],
+  "tavily_used": true,
+  "notes": [
+    "Live triage failed for cedarline: Nebius Token Factory authentication failed (401). Rotate the API key in the Token Factory console and update NEBIUS_API_KEY / the key file.; using offline.",
+    "Live triage failed for lumenbridge: Nebius Token Factory authentication failed (401). Rotate the API key in the Token Factory console and update NEBIUS_API_KEY / the key file.; using offline.",
+    "Live triage failed for northstar: Nebius Token Factory authentication failed (401). Rotate the API key in the Token Factory console and update NEBIUS_API_KEY / the key file.; using offline."
+  ]
+}

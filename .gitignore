@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.meshcfo/
+*.jsonl
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
+submission/captures/
+.DS_Store

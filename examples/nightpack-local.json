@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-11-07T23:10:04.159960+00:00",
+  "hackathon": "Nebius x NVIDIA Global AI Hackathon",
+  "product": "MeshCFO Filing Radar",
+  "brand": "Cubiczan",
+  "mode": "local",
+  "triage_model": "local:qwen2.5-0.5b-instruct-q4_k_m.gguf",
+  "deepen_model": "local:qwen2.5-0.5b-instruct-q4_k_m.gguf",
+  "cards": [
+    {
+      "fixture_id": "lumenbridge",
+      "company": "Lumenbridge Payments Corp. (DEMO)",
+      "ticker": "LMPC-DEMO",
+      "signal_kind": "material_weakness",
+      "filed_on": "2026-02-28",
+      "severity": 9,
+      "clock_hours": 72,
+      "owner_seat": "SOX PMO",
+      "triage_headline": "Lumenbridge Payments Corp. (DEMO): material weakness disclosure \u2014 elevated",
+      "why_triage": "DEMO material-weakness disclosure; remediation testing plan needed.",
+      "deepen_recommended": false,
+      "model_used": "local:qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "mode": "local",
+      "market_hits": []
+    },
+    {
+      "fixture_id": "cedarline",
+      "company": "Cedarline Health Partners (DEMO)",
+      "ticker": "CDLH-DEMO",
+      "signal_kind": "both",
+      "filed_on": "2026-01-22",
+      "severity": 9,
+      "clock_hours": 120,
+      "owner_seat": "CFO (A)",
+      "triage_headline": "DEMO: non-reliance clock \u2014 material weakness",
+      "why_triage": "DEMO material-weakness disclosure; remediation testing plan needed.",
+      "deepen_recommended": true,
+      "model_used": "local:qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "mode": "local",
+      "market_hits": []
+    },
+    {
+      "fixture_id": "northstar",
+      "company": "Northstar Materials, Inc. (DEMO)",
+      "ticker": "NSMT-DEMO",
+      "signal_kind": "both",
+      "filed_on": "2026-03-14",
+      "severity": 9,
+      "clock_hours": 120,
+      "owner_seat": "CFO (A)",
+      "triage_headline": "DEMO: non-reliance + expected 10-Q/10-K amendment cycle before next periodic report \u2014 restatement periods FY2025 Q2 and Q3",
+      "why_triage": "DEMO Item 4.02 non-reliance plus expected 10-Q/10-K amendment cycle before next periodic report; amendment clock is active.",
+      "deepen_recommended": true,
+      "model_used": "local:qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "mode": "local",
+      "market_hits": []
+    }
+  ],
+  "deep_briefs": [
+    {
+      "fixture_id": "cedarline",
+      "ac_one_liner": "DEMO: Cedarline Health Partners (DEMO) filing on January 22, 2026, concluded that the Company's audited consolidated financial statements are not real EDGAR documents. The Company's inventory management practices are being evaluated for obsolescence and NRV reserves. The 8-K Item 4.02 Non-Reliance on FY2024 audited financial statements is being reviewed. The Company's inventory management practice",
+      "why_now": "The DEMO non-reliance determination started an amendment and certification clock.",
+      "icfr_focus": [
+        "Design vs operating: revenue cutoff",
+        "Evidence: journals and hold-criteria documents",
+        "Non-Reliance: inventory obsolescence and NRV reserves"
+      ],
+      "next_actions": [
+        "Controller: inventory affected periods",
+        "IA: schedule interim remediation test",
+        "IA: inventory review"
+      ],
+      "provenance_note": "Drafted by a local open-weight model from DEMO fixture facts.",
+      "model_used": "local:qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "mode": "local"
+    },
+    {
+      "fixture_id": "lumenbridge",
+      "ac_one_liner": "The DEMO filing text does not appear to be a real EDGAR document. Management of Lumenbridge Payments Corp. (DEMO ISSUER) concluded that internal control over financial reporting was not effective as of December 31, 2025.",
+      "why_now": "The filing text is fictional and does not contain any real information about the company or its financial reporting controls.",
+      "icfr_focus": [
+        "Design vs operating: revenue cutoff",
+        "Evidence: journals and hold-criteria documents"
+      ],
+      "next_actions": [
+        "Controller: inventory affected periods",
+        "IA: schedule interim remediation test"
+      ],
+      "provenance_note": "Drafted by a local open-weight model from DEMO fixture facts.",
+      "model_used": "local:qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "mode": "local"
+    },
+    {
+      "fixture_id": "northstar",
+      "ac_one_liner": "DEMO: Non-reliance + expected 10-Q/10-K amendment cycle before next periodic report. The non-reliance determination arose from errors in the timing of revenue recognition for certain bill-and-hold arrangements with industrial distributors. Customer requests to hold disclaimer: DEMO ISSUER \u2014 fictional Cubiczan sample. Not an SEC registrant. Not a real company filing.",
+      "why_now": "The DEMO non-reliance determination started an amendment and certification clock.",
+      "icfr_focus": [
+        "Design vs operating: revenue cutoff",
+        "Evidence: journals and hold-criteria documents",
+        "Non-reliance: 10-Q/10-K amendment"
+      ],
+      "next_actions": [
+        "Controller: inventory affected periods",
+        "IA: schedule interim remediation test"
+      ],
+      "provenance_note": "Drafted by a local open-weight model from DEMO fixture facts.",
+      "model_used": "local:qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "mode": "local"
+    }
+  ],
+  "tavily_used": false,
+  "notes": [
+    "Local inference: local:qwen2.5-0.5b-instruct-q4_k_m.gguf via llama.cpp (open-weight GGUF, on-device, no network)."
+  ]
+}

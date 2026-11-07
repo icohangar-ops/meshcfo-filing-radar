@@ -1,0 +1,38 @@
+[project]
+name = "meshcfo-filing-radar"
+version = "0.1.0"
+description = "Cubiczan MeshCFO Filing Radar — local-first multi-signal DEMO filing triage with an open-weight GGUF model (llama.cpp); external services opt-in only"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Cubiczan", email = "sam@cubiczan.com" }]
+dependencies = [
+  "openai>=1.40.0",
+  "pydantic>=2.6",
+  "pydantic-settings>=2.2",
+  "python-dotenv>=1.0",
+  "httpx>=0.27",
+  "rich>=13.7",
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+# In-process local inference. Without it, the local client falls back to
+# the local-llm ask.py helper (MESHCFO_LOCAL_LLM_ASK_PY) — same GGUF model,
+# same llama.cpp runtime, driven via subprocess.
+local = ["llama-cpp-python>=0.3"]
+
+[project.scripts]
+meshcfo-radar = "meshcfo_filing_radar.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+meshcfo_filing_radar = ["../fixtures/*.json"]
